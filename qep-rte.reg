@@ -70,7 +70,7 @@ Windows Registry Editor Version 5.00
 "Replace Cropped Area With Silence"=dword:00000000
 "Silence Length When Cropping"=dword:00000000
 "Use Snap When Moving"=dword:00000000
-"Move Focus When Editing"=dword:00000000
+"Move Focus When Editing"=dword:00000001
 "Audition Default Length"="2"
 "Allow multiple instances"=dword:00000000
 "Save environment on exit"=dword:00000000
@@ -261,8 +261,8 @@ Windows Registry Editor Version 5.00
 "Menu_EditLevelActivatePointNext"=""
 "Menu_EditLevelActivatePointPrev"=""
 "Menu_EditLevelAdjustActiveLevelCurvePoint"=""
-"Menu_EditLevelAdjustUp"=""
-"Menu_EditLevelAdjustDown"=""
+"Menu_EditLevelAdjustUp"="8"
+"Menu_EditLevelAdjustDown"="2"
 "Menu_EditLevelAdjustForward"=""
 "Menu_EditLevelAdjustBack"=""
 "N28"=""
@@ -383,7 +383,7 @@ Windows Registry Editor Version 5.00
 "Menu_TrackSelectAppendTrack8"="Ctrl+Alt+F8"
 "Menu_TrackSelectAppendTrack9"="Ctrl+Alt+F9"
 "Menu_Control"=""
-"Menu_ControlPlay"="Down"
+"Menu_ControlPlay"=""
 "Menu_ControlPlay2"=""
 "Menu_ControlPlaySelection"="S"
 "Menu_ControlPlayOverSelection"="P"
