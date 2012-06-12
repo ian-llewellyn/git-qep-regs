@@ -1,0 +1,182 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro]
+"InstallationPath"="C:\\Program Files\\Jutel\\Quick Edit Pro\\"
+"RegOwner"="RTÉ"
+"RegCompany"="RTÉ"
+"Serial"="RTEQEPROXXXXXX"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\3.80.0.0 BBC (BCB6)]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Database]
+"Audio File Dialog DLL"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\radiomansearch.bpl"
+"Logging DLL"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\rmlog_1_7.dll"
+"Login Dialog DLL"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\common_dialogs_1_10.bpl"
+"Metadata Dialog DLL"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\importexport.dll"
+"Project File Dialog DLL"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\rmaudioproject.dll"
+"USER_DEFINED_RMPATH"=dword:00000000
+"AudioFileDialogDLLTry1"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\radiomansearch.bpl"
+"AudioFileDialogDLLTry2"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\rmdialog.dll"
+"LoggingDLLTry1"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\rmlog_1_8.dll"
+"LoggingDLLTry2"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\rmlog_1_7.dll"
+"LoginDialogDLLTry1"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\common_dialogs_1_10.bpl"
+"LoginDialogDLLTry2"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\common_dialogs_1_9.bpl"
+"LoginDialogDLLTry3"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\common_dialogs_1_8.bpl"
+"LoginDialogDLLTry4"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\common_dialogs_1_4.bpl"
+"LoginDialogDLLTry5"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\rmauth.dll"
+"MetadataDialogDLLTry1"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\importexport.dll"
+"MetadataDialogDLLTry2"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\RMMeta.dll"
+"ProjectFileDialogDLLTry1"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\rmaudioproject.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Environment]
+"Energy file bit depth"=dword:00000010
+"Log base addresses at startup"=dword:00000000
+"Number of base address entries to keep"=dword:000003e8
+"Use Windows API file copy"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Environment\Keyboard]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Environment\Keyboard\Default]
+"Menu_AuditionJump"="Ctrl+J"
+"Menu_ClipOpenAudio"="F11"
+"Menu_ClipPlay"="Ctrl+P"
+"Menu_ClipPlayStop"="Ctrl+Space"
+"Menu_ClipRename"="F2"
+"Menu_ClipSaveAsAudio"="F12"
+"Menu_ControlForward"="Shift+Right"
+"Menu_ControlMoveEndCursorToBegin"="Alt+Home"
+"Menu_ControlMoveEndCursorToEnd"="Alt+End"
+"Menu_ControlMoveEndCursorToNextFrame"="Alt+Right"
+"Menu_ControlMoveEndCursorToPlayCursor"="Alt+Enter"
+"Menu_ControlMoveEndCursorToPreviousFrame"="Alt+Left"
+"Menu_ControlMovePlayCursorToBegin"="Home"
+"Menu_ControlMovePlayCursorToEnd"="End"
+"Menu_ControlMovePlayCursorToEndCursor"="Shift+End"
+"Menu_ControlMovePlayCursorToNextClip"="Shift+PgDn"
+"Menu_ControlMovePlayCursorToNextFrame"="Right"
+"Menu_ControlMovePlayCursorToPreviousClip"="Shift+PgUp"
+"Menu_ControlMovePlayCursorToPreviousFrame"="Left"
+"Menu_ControlMovePlayCursorToStartCursor"="Shift+Home"
+"Menu_ControlMovePlayCursorToTime"="Ctrl+G"
+"Menu_ControlMoveStartCursorToBegin"="Ctrl+Home"
+"Menu_ControlMoveStartCursorToEnd"="Ctrl+End"
+"Menu_ControlMoveStartCursorToNextFrame"="Ctrl+Right"
+"Menu_ControlMoveStartCursorToPlayCursor"="Ctrl+Enter"
+"Menu_ControlMoveStartCursorToPreviousFrame"="Ctrl+Left"
+"Menu_ControlMute"="Ctrl+M"
+"Menu_ControlPause"="P"
+"Menu_ControlPlay"="Enter"
+"Menu_ControlPlayAfterSelection"="4"
+"Menu_ControlPlayBeforeSelection"="3"
+"Menu_ControlPlayEndOfSelection"="6"
+"Menu_ControlPlayOverSelection"="2"
+"Menu_ControlPlaySelection"="1"
+"Menu_ControlPlayStartOfSelection"="5"
+"Menu_ControlPlayStop"="Space"
+"Menu_ControlRecord"="R"
+"Menu_ControlRepeat"="L"
+"Menu_ControlRewind"="Shift+Left"
+"Menu_ControlStop"="S"
+"Menu_DecreaseAuditionLength"="F6"
+"Menu_EditCopy"="Ctrl+C"
+"Menu_EditCopyToClipListInvertedSelection"="Shift+F9"
+"Menu_EditCopyToClipListSelection"="F9"
+"Menu_EditCut"="Ctrl+X"
+"Menu_EditDelete"="Ctrl+Del"
+"Menu_EditErase"="Ctrl+E"
+"Menu_EditLevelFadeIn"="I"
+"Menu_EditLevelFadeOut"="O"
+"Menu_EditLevelSet"="Ctrl+L"
+"Menu_EditMarkerAdd"="M"
+"Menu_EditMarkerNext"="K"
+"Menu_EditMarkerPrev"="J"
+"Menu_EditPaste"="Ctrl+V"
+"Menu_EditRedo"="Shift+Ctrl+Z"
+"Menu_EditSelectAll"="Ctrl+A"
+"Menu_EditSelectCurrentClip"="Shift+A"
+"Menu_EditSnap"="F8"
+"Menu_EditTrimBoth"="Ctrl+T"
+"Menu_EditUndo"="Ctrl+Z"
+"Menu_FileClose"="Ctrl+D"
+"Menu_FileExit"="Ctrl+W"
+"Menu_FileNew"="Ctrl+N"
+"Menu_FileOpenFromDatabase"="Ctrl+O"
+"Menu_FileOpenProjectFromDatabase"="Shift+Ctrl+O"
+"Menu_FileSaveAsToDatabase"="Ctrl+S"
+"Menu_FileSaveProjectAsToDatabase"="Shift+Ctrl+S"
+"Menu_HelpHelp"="F1"
+"Menu_IncreaseAuditionLength"="F5"
+"Menu_TrackMuteAll"="Ctrl+0"
+"Menu_TrackMuteTrack1"="Ctrl+1"
+"Menu_TrackMuteTrack2"="Ctrl+2"
+"Menu_TrackMuteTrack3"="Ctrl+3"
+"Menu_TrackMuteTrack4"="Ctrl+4"
+"Menu_TrackMuteTrack5"="Ctrl+5"
+"Menu_TrackMuteTrack6"="Ctrl+6"
+"Menu_TrackMuteTrack7"="Ctrl+7"
+"Menu_TrackMuteTrack8"="Ctrl+8"
+"Menu_TrackMuteTrack9"="Ctrl+9"
+"Menu_TrackSelectAppendTrack1"="Ctrl+Alt+1"
+"Menu_TrackSelectAppendTrack2"="Ctrl+Alt+2"
+"Menu_TrackSelectAppendTrack3"="Ctrl+Alt+3"
+"Menu_TrackSelectAppendTrack4"="Ctrl+Alt+4"
+"Menu_TrackSelectAppendTrack5"="Ctrl+Alt+5"
+"Menu_TrackSelectAppendTrack6"="Ctrl+Alt+6"
+"Menu_TrackSelectAppendTrack7"="Ctrl+Alt+7"
+"Menu_TrackSelectAppendTrack8"="Ctrl+Alt+8"
+"Menu_TrackSelectAppendTrack9"="Ctrl+Alt+9"
+"Menu_TrackSelectTrack1"="Alt+1"
+"Menu_TrackSelectTrack2"="Alt+2"
+"Menu_TrackSelectTrack3"="Alt+3"
+"Menu_TrackSelectTrack4"="Alt+4"
+"Menu_TrackSelectTrack5"="Alt+5"
+"Menu_TrackSelectTrack6"="Alt+6"
+"Menu_TrackSelectTrack7"="Alt+7"
+"Menu_TrackSelectTrack8"="Alt+8"
+"Menu_TrackSelectTrack9"="Alt+9"
+"Menu_TrackSyncAll"="Shift+0"
+"Menu_TrackSyncTrack1"="Shift+1"
+"Menu_TrackSyncTrack2"="Shift+2"
+"Menu_TrackSyncTrack3"="Shift+3"
+"Menu_TrackSyncTrack4"="Shift+4"
+"Menu_TrackSyncTrack5"="Shift+5"
+"Menu_TrackSyncTrack6"="Shift+6"
+"Menu_TrackSyncTrack7"="Shift+7"
+"Menu_TrackSyncTrack8"="Shift+8"
+"Menu_TrackSyncTrack9"="Shift+9"
+"Menu_ViewPcxVolumeControl"="V"
+"Menu_ViewZoomDefault"="Shift+Up"
+"Menu_ViewZoomIn"="Up"
+"Menu_ViewZoomOut"="Down"
+"MenuControl_ScrubIn"="B"
+"MenuControl_ScrubOut"="N"
+"Menu_ClipAddMarker"="Alt+M"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Environment\LevelMeter]
+"MeteringScale"="VU"
+"MonoTrim"=hex:00,00,00,00,00,00,00,00
+"ReferenceLevel"=hex:00,00,00,00,00,00,32,c0
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Environment\Menu]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Environment\Menu\Default]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Project]
+"BitRate"=dword:00000009
+"Compression"=dword:00000001
+"Confirm Copy Operations"=dword:00000000
+"Copy Clip List Files Opened From Local Hard Disk"=dword:00000001
+"Copy Clip List Files Opened From Network"=dword:00000000
+"Copy Editor Files Opened From Local Hard Disk"=dword:00000001
+"Copy Editor Files Opened From Network"=dword:00000000
+"Default Number Of Tracks"=dword:00000003
+"Do Not Copy Files Before Project Is Saved"=dword:00000000
+"File Type"=dword:00000001
+"LayerBitsPerSample"=dword:00000001
+"Mode"=dword:00000001
+"Restore Workspace Status From Project File"=dword:00000001
+"SampleRate"=dword:00000005
+"Save Clip List In Project File"=dword:00000001
+"Save Workspace Status In Project File"=dword:00000001
+"Temporary File Path"="C:\\Program Files\\Jutel\\Quick Edit Pro\\Temp"
+
