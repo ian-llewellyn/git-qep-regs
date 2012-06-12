@@ -5,8 +5,42 @@ Windows Registry Editor Version 5.00
 "RegOwner"="RTÉ"
 "RegCompany"="RTÉ"
 "Serial"="RTEQEPROXXXXXX"
+"Product ID"="29D54AB7-885DC136"
+"Password"="D24F913B-A945D57C"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\3.80.0.0 BBC (BCB6)]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Audio Board]
+"MonitorAlways"=dword:00000000
+"Decoder"=dword:00000001
+"Encoder"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Audio Board\i-Media]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Audio Board\i-Media\Player]
+"Device"=dword:00000000
+"Sample Buffer Size"=dword:00004000
+"Sample Buffer Count"=dword:0000000a
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Audio Board\i-Media\Recorder]
+"Device"=dword:00000000
+"Sample Buffer Size"=dword:00004000
+"Sample Buffer Count"=dword:0000000a
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Audio Board\PCX]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Audio Board\PCX\Player]
+"Output"=dword:00000000
+"Conversion Resource"=dword:00000000
+"Digital Output Clock"=dword:00000000
+"Digital Output Format"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Audio Board\PCX\Recorder]
+"Input"=dword:00000000
+"ClipListInput"=dword:00000000
+"Monitoring Output"=dword:00000000
+"Analog Input Source"=dword:00000000
+"Digital Input Format"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Database]
 "Audio File Dialog DLL"="C:\\Program Files\\Jutel\\RadioMan_Planning_Workstation\\radiomansearch.bpl"
@@ -33,6 +67,56 @@ Windows Registry Editor Version 5.00
 "Log base addresses at startup"=dword:00000000
 "Number of base address entries to keep"=dword:000003e8
 "Use Windows API file copy"=dword:00000001
+"Replace Cropped Area With Silence"=dword:00000000
+"Silence Length When Cropping"=dword:00000000
+"Use Snap When Moving"=dword:00000000
+"Move Focus When Editing"=dword:00000000
+"Audition Default Length"="2"
+"Allow multiple instances"=dword:00000000
+"Save environment on exit"=dword:00000000
+"Use last saved environment"=dword:00000000
+"Use local disk for mixdown"=dword:00000000
+"Use local temporary copy for DB projects"=dword:00000001
+"Audio file save consistency check"=dword:00000000
+"Extra space at maximum zoom out"=dword:00000001
+"Preserve cliplist by default"=dword:00000001
+"Save notes to keywords"=dword:00000001
+"Toolbar button size"=dword:00000002
+"Scroll Mode"=dword:00000000
+"Page Mode Refresh Rate"=dword:00000018
+"Scroll Mode Refresh Rate"=dword:00000018
+"Enable Waveform Cache"=dword:00000001
+"Drag Refresh Rate"=dword:00000018
+"Enable special keyboard"=dword:00000000
+"Com Port"=dword:00000001
+"Enable ShuttlePRO"=dword:00000000
+"Enable mouse wheel"=dword:00000001
+"Mouse wheel scroll sensitivity"=dword:00000032
+"Mouse wheel zoom sensitivity"=dword:00000001
+"Mouse wheel scroll reversed"=dword:00000000
+"Mouse wheel zoom reversed"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Environment\Colors]
+"Background"=dword:00000000
+"Waveform"=dword:00008000
+"Selection background"=dword:00303030
+"Selection"=dword:0000ff00
+"End of project"=dword:00404040
+"Tape Time Background"=dword:00404040
+"Tape Time Text"=dword:0000ff00
+"Play cursor"=dword:00ffff00
+"Record cursor"=dword:000000ff
+"Start cursor"=dword:0000ffff
+"End cursor"=dword:000000ff
+"Level curve"=dword:0000ffff
+"Markers"=dword:00ff0000
+"Marker text"=dword:00ffffff
+"Mouse undo indicator"=dword:00008000
+"Visible range indicator"=dword:002ca0ef
+"Header audio"=dword:8000000f
+"Header silence"=dword:80000010
+"Header end of project"=dword:00404040
+"Header text"=dword:80000012
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Environment\Keyboard]
 
@@ -161,6 +245,22 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Environment\Menu\Default]
 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Environment\Normalization]
+"DefaultLevel"=hex:00,00,00,00,00,00,24,c0
+"Auto Normalize"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Mixer]
+"MON_1"=dword:000000c4
+"MON_1_mute"=dword:00000000
+"MON_1_gain"=dword:00000100
+"IN_1"=dword:000000c4
+"IN_1_mute"=dword:00000000
+"IN_1_gain"=dword:00000100
+"IN_2"=dword:000000c4
+"IN_2_mute"=dword:00000000
+"IN_2_gain"=dword:00000100
+"IN_1_group"=dword:00000000
+
 [HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Project]
 "BitRate"=dword:00000009
 "Compression"=dword:00000001
@@ -179,4 +279,21 @@ Windows Registry Editor Version 5.00
 "Save Clip List In Project File"=dword:00000001
 "Save Workspace Status In Project File"=dword:00000001
 "Temporary File Path"="C:\\Program Files\\Jutel\\Quick Edit Pro\\Temp"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Recording]
+"Insert Mode"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Volume]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Jutel\RadioMan Quick Edit Pro\Volume\PCX Board]
+"Advanced Controls"=dword:00000000
+"DIL"=dword:00000020
+"DIR"=dword:00000020
+"DOL"=dword:00000020
+"DOR"=dword:00000020
+"DMM"=dword:00000020
+"AIL"=dword:00000028
+"AIR"=dword:00000028
+"AOL"=dword:00000028
+"AOR"=dword:00000028
 
