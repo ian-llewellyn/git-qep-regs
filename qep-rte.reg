@@ -499,7 +499,7 @@ Windows Registry Editor Version 5.00
 "Menu_ClipStop"="Alt+T"
 "Menu_ClipRecord"="Ctrl+Alt+R"
 "Menu_ClipRecordVoiceOver"=""
-"Menu_ClipPlayStop"="Ctrl+Space"
+"Menu_ClipPlayStop"="Shift+Ctrl+Space"
 "Menu_ClipAddMarker"=""
 "N10"=""
 "Menu_ClipDirectXPlugins"=""
